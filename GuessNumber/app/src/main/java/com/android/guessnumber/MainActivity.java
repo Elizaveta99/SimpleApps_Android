@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
         {
             Log.i(LOG_TAG, String.format("Empty input"));
 
-            builder.setTitle("Wrong input!")
-                    .setMessage("Input is empty, enter number in [1, 10]")
+            builder.setTitle(R.string.error)
+                    .setMessage(R.string.empty)
                     .setCancelable(false)
                     .setNegativeButton("OK",
                             new DialogInterface.OnClickListener() {
@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
                 int temp = Integer.parseInt(etInput.getText().toString());
 
                 if (temp < 1 || temp > 10) {
-                    builder.setTitle("Wrong input!")
-                            .setMessage("Your number should be in [1, 10]")
+                    builder.setTitle(R.string.error)
+                            .setMessage(R.string.value_borders)
                             .setCancelable(false)
                             .setNegativeButton("OK",
                                     new DialogInterface.OnClickListener() {
@@ -95,8 +95,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             } catch (NumberFormatException e) {
-                builder.setTitle("Wrong input!")
-                        .setMessage("Your number should be integer")
+                builder.setTitle(R.string.error)
+                        .setMessage(R.string.value_not_int)
                         .setCancelable(false)
                         .setNegativeButton("OK",
                                 new DialogInterface.OnClickListener() {

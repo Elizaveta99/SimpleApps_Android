@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Угадай число</string>
+    <string name="behind">Попробуй больше</string>
+    <string name="ahead">Попробуй меньше</string>
+    <string name="hit">Попадание!</string>
+    <string name="enter_value">Ввести значение</string>
+    <string name="play_more">Играть ещё</string>
+    <string name="number">число</string>
+    <string name="try_to_guess">Попробуй угадать</string>
+    <string name="error">Неверный ввод</string>
+    <string name="empty">Ничего не введено, введите число из отрезка [1, 10]</string>
+    <string name="value_borders">Число должно находиться в отрезке [1, 10]</string>
+    <string name="value_not_int">Число должно быть типа integer</string>
+</resources>
