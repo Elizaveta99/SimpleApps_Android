@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraTranslation">
+    <string name="app_name">GuessNumberKotlin</string>
+    <string name="title.guessnumberkotlin">GuessNumberKotlin</string>
+    <string name="btn.start">СТАРТ</string>
+    <string name="label.guess">Угадай число:</string>
+    <string name="btn.do.guess">Угадать!</string>
+    <string name="edit.number">Число</string>
+    <string name="status.start.info">Нажмите СТАРТ чтобы начать</string>
+    <string name="label.log">Log:</string>
+    <string name="empty">Пустой ввод, попробуйте ещё раз</string>
+    <string name="value_borders">Число должно находиться в отрезке [1, 7]</string>
+    <string name="guess.hint">Угадайте число между %1$d и %2$d</string>
+    <string name="status.too.low">Слишком маленькое.</string>
+    <string name="status.too.high">Слишком большое.</string>
+    <string name="status.hit">Вы угадали число после %1$d попыток! Нажмите СТАРТ чтобы начать новую игру.</string>
+</resources>
