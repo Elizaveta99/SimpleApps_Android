@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="from">Из</string>
+    <string name="to">В</string>
+    <string name="from_number">Из значения</string>
+    <string name="to_number"> </string>
+    <string name="button_calc">Посчитать</string>
+    <string name="error">Ошибка</string>
+    <string name="wrong_input">Неверный ввод</string>
+    <string-array name="listOfItemsFrom">
+        <item>километры квадратные</item>
+        <item>метры квадратные</item>
+    </string-array>
+    <string-array name="listOfItemsTo">
+        <item>футы квадратные</item>
+        <item>акры</item>
+    </string-array>
+</resources>
